@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MyGame" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="rU1-iw-Psj">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="W58-1l-pfc">
+                                <rect key="frame" x="0.0" y="44" width="414" height="747.5"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Lqg-UU-up6">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="149.5"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="clL-Jh-Z10" userLabel="Button1">
+                                                <rect key="frame" x="0.0" y="0.0" width="138" height="149.5"/>
+                                                <state key="normal" title="Button" image="transparent"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="layer.borderWidth" value="5"/>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="Button1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YCd-ls-jRF"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TrH-Wu-1mt" userLabel="Button2">
+                                                <rect key="frame" x="138" y="0.0" width="138" height="149.5"/>
+                                                <state key="normal" title="Button" image="transparent"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="layer.borderWidth" value="5"/>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="Button2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3wM-1I-EdQ"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1ee-kz-Sp9" userLabel="Button3">
+                                                <rect key="frame" x="276" y="0.0" width="138" height="149.5"/>
+                                                <state key="normal" title="Button" image="transparent"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="layer.borderWidth" value="5"/>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="Button3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="K65-Qh-Yc8"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="MVc-qT-iOD">
+                                        <rect key="frame" x="0.0" y="149.5" width="414" height="149.5"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4iU-57-xMe" userLabel="Button4">
+                                                <rect key="frame" x="0.0" y="0.0" width="138" height="149.5"/>
+                                                <state key="normal" title="Button" image="transparent"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="layer.borderWidth" value="5"/>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="Button4:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XRZ-OM-zgC"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Byb-2x-Mgm" userLabel="Button5">
+                                                <rect key="frame" x="138" y="0.0" width="138" height="149.5"/>
+                                                <state key="normal" title="Button" image="transparent"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="layer.borderWidth" value="5"/>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="Button5:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SYN-xc-WLu"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ac5-7U-73l" userLabel="Button6">
+                                                <rect key="frame" x="276" y="0.0" width="138" height="149.5"/>
+                                                <state key="normal" title="Button" image="transparent"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="layer.borderWidth" value="5"/>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="Button6:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dd5-05-R8e"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="8w4-p5-ejB">
+                                        <rect key="frame" x="0.0" y="299" width="414" height="149.5"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h8v-RT-mbF" userLabel="Button7">
+                                                <rect key="frame" x="0.0" y="0.0" width="138" height="149.5"/>
+                                                <state key="normal" title="Button" image="transparent"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="layer.borderWidth" value="5"/>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="Button7:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Af4-cw-ryK"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xth-6I-fJi" userLabel="Button8">
+                                                <rect key="frame" x="138" y="0.0" width="138" height="149.5"/>
+                                                <state key="normal" title="Button" image="transparent"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="layer.borderWidth" value="5"/>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="Button8:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qDT-Lm-equ"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bID-0m-sWd" userLabel="Button9">
+                                                <rect key="frame" x="276" y="0.0" width="138" height="149.5"/>
+                                                <state key="normal" title="Button" image="transparent"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="layer.borderWidth" value="5"/>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="Button9:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6Zg-KS-951"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="center" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="3je-RL-IlQ">
+                                        <rect key="frame" x="12.5" y="448.5" width="389" height="149.5"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Player's Score: 0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PMP-HS-VLr">
+                                                <rect key="frame" x="0.0" y="61" width="194.5" height="28"/>
+                                                <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="24"/>
+                                                <color key="textColor" red="1" green="0.92201450890000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Computer's Score: 0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M7G-S6-cmt">
+                                                <rect key="frame" x="194.5" y="61.5" width="194.5" height="27"/>
+                                                <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="23"/>
+                                                <color key="textColor" red="1" green="0.92201450890000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Uwy-Rk-BLn">
+                                        <rect key="frame" x="63.5" y="598" width="287" height="149.5"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lbk-Av-dpd">
+                                                <rect key="frame" x="0.0" y="0.0" width="201" height="149.5"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="149.5" id="77o-c6-Axk"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="23"/>
+                                                <state key="normal" title="Reset Board               ">
+                                                    <color key="titleColor" red="1" green="0.9220145089285714" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                        <integer key="value" value="5"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="ResetButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JR1-DL-36h"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WZb-1l-YBO">
+                                                <rect key="frame" x="201" y="0.0" width="86" height="149.5"/>
+                                                <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="23"/>
+                                                <state key="normal" title="Reset All">
+                                                    <color key="titleColor" red="1" green="0.92201450890000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                        <integer key="value" value="5"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="resetAll:" destination="BYZ-38-t0r" eventType="touchUpInside" id="E03-Az-Cjj"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="W58-1l-pfc" secondAttribute="bottom" priority="999" constant="70" id="6nL-js-xgV"/>
+                            <constraint firstItem="rU1-iw-Psj" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="NZ7-kE-GfH"/>
+                            <constraint firstItem="W58-1l-pfc" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="PZC-82-d0b"/>
+                            <constraint firstItem="W58-1l-pfc" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="QhA-kP-Rl3"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="rU1-iw-Psj" secondAttribute="bottom" id="VLn-xz-KJi"/>
+                            <constraint firstAttribute="trailing" secondItem="W58-1l-pfc" secondAttribute="trailing" id="cd8-nF-5c6"/>
+                            <constraint firstItem="rU1-iw-Psj" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="eyW-Wh-TP3"/>
+                            <constraint firstAttribute="trailing" secondItem="rU1-iw-Psj" secondAttribute="trailing" id="lwc-c9-97V"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="ButtonOne" destination="clL-Jh-Z10" id="ZWN-nI-pgI"/>
+                        <outlet property="ButtonThree" destination="1ee-kz-Sp9" id="T3V-Ek-Rkx"/>
+                        <outlet property="ButtonTwo" destination="TrH-Wu-1mt" id="0Nb-Tt-uJk"/>
+                        <outlet property="b1" destination="clL-Jh-Z10" id="5tF-kQ-3Md"/>
+                        <outlet property="b2" destination="TrH-Wu-1mt" id="ucB-hP-Mlv"/>
+                        <outlet property="b3" destination="1ee-kz-Sp9" id="PiC-Gc-nuU"/>
+                        <outlet property="b4" destination="4iU-57-xMe" id="9Wl-8o-Eml"/>
+                        <outlet property="b5" destination="Byb-2x-Mgm" id="vMO-bF-xc5"/>
+                        <outlet property="b6" destination="ac5-7U-73l" id="DqH-lr-rcQ"/>
+                        <outlet property="b7" destination="h8v-RT-mbF" id="flw-P0-1tF"/>
+                        <outlet property="b8" destination="Xth-6I-fJi" id="jp5-Rw-gTm"/>
+                        <outlet property="b9" destination="bID-0m-sWd" id="sMK-Ti-tTL"/>
+                        <outlet property="pOneScore" destination="PMP-HS-VLr" id="3gE-d8-Jew"/>
+                        <outlet property="pTwoScore" destination="M7G-S6-cmt" id="yIA-L4-WvS"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5.5999999999999996" y="37.331334332833585"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="background" width="667" height="621"/>
+        <image name="transparent" width="200" height="200"/>
+    </resources>
+</document>
